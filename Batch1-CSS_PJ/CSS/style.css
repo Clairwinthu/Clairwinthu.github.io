@@ -1,0 +1,86 @@
+@font-face {
+    font-family: noto;
+    src: url(../Roboto/Roboto-Italic.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: noto;
+}
+/* start nav */
+.nav{
+    /* background-color: red; */
+    box-shadow: 0px 5px 20px rgba(0, 0, 1, .2);
+}
+.nav_logo{
+    width: 160px;
+    height: 80px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.nav_bar{
+    display: inline-block;
+}
+.nav_item{
+    float: right;
+}
+.nav_item li{
+    display: inline-block;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.nav_item li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav_item li:last-child{
+    margin-right: 50px;
+}
+
+.nav_item_hover a:hover{
+    color: red;
+}
+.cart_noti{
+    position: relative;
+    top: -15px;
+    left: -5px;
+    background-color: red;
+    padding: 3px;
+    border-radius: 60px;
+}
+/* end nav */
+
+/* start bunner */
+.bunner_image{
+    width: 100%;
+}
+.carousel_text{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    background-color: rgba(0, 0, 0, .3);
+    padding: 30px;
+    color: white;
+}
+.carousel_text h2{
+    color: white;
+    margin-bottom: 10px;
+}
+.carousel_text button{
+    margin-top: 15px;
+    padding: 3px 15px;
+    border-radius: 5px;
+    outline: none;
+    /* background-color: red; */
+    color: white;
+    border: 8px solid red;
+    font-size: 10px;
+}
+.carousel_text button:hover{
+    background-color: red;
+    color: white;
+}
+/* end bunner */
